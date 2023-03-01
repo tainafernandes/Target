@@ -11,7 +11,7 @@ public class FifthQuestion {
         System.out.println(reversePhrase(phrase2));
     }
 
-    private static String reversePhrase(String phrase) {
+    public static String reversePhrase(String phrase) {
         StringBuilder sb = new StringBuilder();
 
         for (int i = phrase.length() - 1; i >= 0; i--){
